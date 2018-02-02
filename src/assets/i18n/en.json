@@ -12,5 +12,9 @@
       "Contact": "Contact",
       "Language": "Language"
     }
+  },
+  "About": {
+    "Title": "About Us",
+    "Intro": "Description....."
   }
 }
