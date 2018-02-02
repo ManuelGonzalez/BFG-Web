@@ -1,0 +1,16 @@
+{
+  "Home": {
+    "Title": "BFG-Consulting",
+    "Intro": "Description.....",
+    "Menu": {
+      "Home": "BFG-Consulting",
+      "About": "About us",
+      "Service": "Services",
+      "Team": "Team",
+      "Portfolio": "Portfolio",
+      "Blog": "Blog",
+      "Contact": "Contact",
+      "Language": "Language"
+    }
+  }
+}
