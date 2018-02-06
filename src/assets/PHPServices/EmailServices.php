@@ -12,6 +12,7 @@ if(empty($errors))
 
 	$from_email = $request->email;
 	$message = $request->message;
+	$subject = $request->subject;
 	$from_name = $request->name;
 
 	$to_email = $from_email;
@@ -21,7 +22,7 @@ if(empty($errors))
 	$content = "<p>$message</p>";
 
 	$website = 'BFG-Consultores';
-	$email_subject = "$website: Neue Nachricht von $from_name erhalten";
+	$email_subject = "$website: $subject de: $from_name";
 
 	$email_body = '<html><body>';
 	$email_body .= "$contact $content";
